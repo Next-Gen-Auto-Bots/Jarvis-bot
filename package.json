@@ -20,6 +20,7 @@
   "author": "tabrezahmed51",
   "license": "MIT",
   "dependencies": {
+    "@vercel/analytics": "^1.6.1",
     "astro": "^4.0.0"
   },
   "devDependencies": {
