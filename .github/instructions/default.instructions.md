@@ -14,15 +14,15 @@ What to look for:
 - Unnecessary large or binary files added to the repo.
 - Inconsistent code style or obvious anti-patterns.
 
-Tech details &amp; commands:
+Tech details & commands:
 - Repo root contains package.json. Use `npm install` and `npm test` to run tests locally.
 - Lint: `npm run lint` (where applicable).
 - Build: `npm run build`.
 
 Files and filetypes to prioritize:
-- .ts, .tsx, .js, .py for code review
+- .ts, .tsx, .js for code review
 - .yml/.yaml for GitHub Actions or other CI configs
-- package.json, tsconfig.json, dockerfile
+- package.json, tsconfig.json, Dockerfile
 - Do not attempt to review large binary files or assets (e.g., .png, .jpg, .zip)
 
 Tone and output style:
@@ -46,4 +46,9 @@ Acceptance criteria:
 - The PR references issue #3 and explains the purpose.
 - Instructions are clear and provide commands and priorities for Copilot reviews.
 
-Please create the branch, add the file, commit, and open a PR titled: "Add Copilot repository custom instructions to improve PR reviews" targeting main. Include link to parent issue #3 in PR body, and request review by @tabrezahmed51.
+Additional PR details:
+- Branch name: add/copilot-instructions
+- PR title: Add Copilot repository custom instructions to improve PR reviews
+- Request review from: @tabrezahmed51
+
+Please create the branch, add the file, commit, push, and open the PR targeting main.
